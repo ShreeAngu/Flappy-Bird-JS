@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>OUT FLAPPY FLAPPY BIRD FLAPPY BIRD</title>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        #bg{
+             width:100vw;
+             height:100vh;
+             z-index: 1;
+             position: absolute;
+        }
+        .text{
+            position: absolute;
+            font-family: 'Press Start 2P', monospace;
+            z-index: 2;
+            background: transparent;            
+            border:0px;
+            font-size:2.3vw;
+        }
+        #retry{
+            width: 15%;
+            height: 10%;
+            cursor: pointer;
+            left:42.5%;
+            top:77.5%;
+        }
+        #best{
+            width: 5%;
+            height: 10%;
+            left:49.5%;
+            top:55.5%;
+        }
+        #score{
+            width: 5%;
+            height: 10%;
+            left:49.5%;
+            top:42.5%;
+        }
+    </style>
+    <body>
+        <img src="images\out.png" id="bg">
+        <h1 id="best" class="text">9999</h1>
+        <h1 id="score" class="text">9999</h1>
+        <button class="text" id="retry">RETRY</button>
+    </body>
+    <script type="module"src="flappycoderesult.js">
+
+    </script>
+</html>

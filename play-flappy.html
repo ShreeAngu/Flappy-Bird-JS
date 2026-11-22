@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Flappy Bird</title>
+</head>
+<style>
+    *{
+        margin:0px;
+        padding: 0px;
+    }
+    #bg{
+        position:absolute;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+    }
+    #bird{
+        width: 4vw;
+        height: 4vh;
+        position: absolute;
+        z-index: 2;
+    }
+    .pipe{
+        z-index: 3;
+        position: absolute;
+        content:url("images/pipe-green.png");
+        right:0px;  
+    }
+</style>
+<body >
+    <div id="playarea">
+    <img src="images\bluebird-downflap.gif" id="bird">
+    <img src="images\bg.png" id="bg">
+    </div>
+
+</body>
+<script type="module" src="flappycode.js"> </script>
+</html>
