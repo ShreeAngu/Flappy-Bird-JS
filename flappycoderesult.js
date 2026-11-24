@@ -1,6 +1,6 @@
 let currentscore=sessionStorage.getItem("currentscore")
 let retry=document.getElementById("retry")
-retry.addEventListener('click',()=>window.location.replace("./play-flappy.html"))//always write response in func  
+retry.addEventListener('click',()=>window.location.replace("./index.html"))//always write response in func  
 let score=document.getElementById("score")
 score.innerText=currentscore
 let highScore=getcookie("flappybird")
