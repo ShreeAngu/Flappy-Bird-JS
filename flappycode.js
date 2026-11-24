@@ -94,14 +94,14 @@ function ishit(tempx,tempy,currpipe){
         var currypipe=windowheight-currentheight
         if (((tempx>=currentxpipe && tempx<=currentxpipe+currentwidth) && tempy>=currypipe) ){
         sessionStorage.setItem("currentscore",currentscore)
-        window.location.replace("out-flappy.html")
+        window.location.replace("index.html")
         return
     }
     }else{
         var currypipe=currentheight
         if (((tempx>=currentxpipe && tempx<=currentxpipe+currentwidth) && tempy<=currypipe)){
         sessionStorage.setItem("currentscore",currentscore)
-        window.location.replace("out-flappy.html")
+        window.location.replace("index.html")
         return
     }
     }   
